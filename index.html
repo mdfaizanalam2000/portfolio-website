@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website--All about me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div id="logo">F.</div>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <i class="uil uil-multiply" onclick="closemenu()"></i>
+                </ul>
+                <i class="uil uil-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="text">
+                <h1>Hi, I am MD Faizan Alam</h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-left">
+                    <img src="user.png" alt="error">
+                </div>
+                <div class="about-right">
+                    <h1 class="subtitle">About Me</h1>
+                    <p id="intro">A highly motivated and hardworking individual looking for a
+                        responsible role in a reputable organization. Furthermore, I am adept at handling multiple tasks
+                        on a daily basis competently and at working well under pressure.</p>
+                    <div class="tabs">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Good knowledge of designing webpages using HTML, CSS and
+                                JavaScript.</li>
+                            <li><span>Languages</span><br>Proficient knowledge of Java, Python and C.</li>
+                            <li><span>Modern Tools</span><br>Used to many modern tools like Bootstrap, Tailwind CSS etc.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>ReactJS</span><br>Developed and deployed react app using create-react-app.
+                            </li>
+                            <li><span>HackerRank</span><br>Star coder in Java and C.</li>
+                            <li><span>Certifications</span><br>Got <i>Elite+Silver Medal</i> certification in Java
+                                Programming through NPTEL proctored examination held in 2022.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Bachelors of Technology in Computer Science and Engineering</span><br>National
+                                Institute Of Science & Technology, Berhampur <br>(2020-2024)
+                            </li>
+                            <li><span>Intermediate</span><br>M.M.S.S.V.M, Madhupur <br>(2019)</li>
+                            <li><span>Matriculation</span><br>Carmel School, Madhupur <br>(2017)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="uil uil-arrow"></i>
+                    <h2>Web Design</h2>
+                    <p>I can design beautiful websites using HTML, CSS and JavaScript.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="uil uil-brackets-curly"></i>
+                    <h2>App Design</h2>
+                    <p>I can create web applications using reactJS.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="uil uil-robot"></i>
+                    <h2>Something More</h2>
+                    <p>Under development!
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work"><img src="https://source.unsplash.com/random/300x300/?technology,app" alt="error">
+                    <div class="layer">
+                        <h3>PlayWithText</h3>
+                        <p>Text utility web application built using create-react-app.</p>
+                        <a href="https://mdfaizanalam2000.github.io/PlayWithText-reactapp" target="_blank"><i
+                                class="uil uil-link"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="https://source.unsplash.com/random/300x300/?code,tech" alt="error">
+                    <div class="layer">
+                        <h3>codeBlooded</h3>
+                        <p>A blog website built using only Bootstrap.</p>
+                        <a href="https://mdfaizanalam2000.github.io/codeBlooded" target="_blank"><i
+                                class="uil uil-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work"><img src="https://source.unsplash.com/random/300x300/?code,coder" alt="error">
+                    <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Hope you are loving it.</p>
+                        <a href="#"><i class="uil uil-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="uil uil-envelope"></i> alamf015@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> +91-8877188983</p>
+                    <p><i class="uil uil-estate"></i> Madhupur, Jharkhand</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/md.faizan2000" target="_blank"><i
+                                class="uil uil-facebook"></i></a>
+                        <a href="https://twitter.com/MDFaizanAlam_" target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/md-faizan-alam-35374922a" target="_blank"><i
+                                class="uil uil-linkedin"></i></a>
+                        <a href="https://www.instagram.com/iam_faizan2000/" target="_blank"><i
+                                class="uil uil-instagram"></i></a>
+                        <a href="https://wa.me/918877188983" target="_blank"><i class="uil uil-whatsapp"></i></a>
+                    </div>
+                    <a href="/images/myresume.pdf" download class="btn">Download resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="4" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        Copyright <i class="uil uil-copyright"></i> 2022. Made with <i class="uil uil-heart"></i> by Faizan
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
