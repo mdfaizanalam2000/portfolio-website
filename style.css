@@ -439,17 +439,16 @@ nav .uil {
         font-size: 15px;
     }
 
-    .about-right h1{
-        text-align: center;
+    .about-right #intro{
+        margin-right: 5px;
     }
     
-    .about-right #intro,
-    .about-right .tab-content{
-        padding: 0 5px;
+    .tab-content{
+        margin-right: 20px;
     }
 
     .container{
-        padding: 5%;
+        padding: 0 5%;
     }
     
     .services-list div {
